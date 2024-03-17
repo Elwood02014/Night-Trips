@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+* {
+   margin: 0px;
+   padding: 0px;
+}
+#Foto {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#Text {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 153px;
+    letter-spacing: -0.02em;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height: 60px;
+    top: 200px;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#NT {
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    width: 60px;
+    height: 68px;
+}
+
+#Tochka {
+    font-family: 'Playfair Display', serif;
+    color: #41EAD4;
+    top: 75px;
+    left: 250px;
+}
+
+#vertical-line {
+    border-radius: 13px;
+    height: 80px;
+    position: absolute;
+    top: 680px;
+    left: 250px;
+    width: 2px;
+    background-color: #09F4F4;
+}
+
+.gradient-container::after {
+    top: 568px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 377px; /* Встановлюємо висоту градієнту */
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+}
+
+.vertical-text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: top;
+    color: #FFFFFF;
+    top: 630px;
+    left: 222px;
+    position: absolute;
+    writing-mode: horizontal-tb; /* Встановлюємо вертикальний режим написання тексту */
+    text-orientation: upright; /* Зберігаємо орієнтацію тексту вертикально */
+    transform: rotate(-90deg); /* Обертаємо текст навколо своєї осі для корекції орієнтації */
+    white-space: nowrap; /* Забороняємо перенесення тексту на новий рядок */
+}
+
+#Text2 {
+    font-size: 17px;
+    top: 360px;
+    left: 570px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Text3 {
+    left: 435px;
+    color: #FFFFFF;
+    top: 430px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    width: 643px;
+    height: 79px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Foto1 {
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 740px;
+    width: 24px;
+    height: 24px;
+    padding: 2px, 6px, 2px, 7px;
+}
+
+#Foto2 {
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 660px;
+    width: 24px;
+    height: 24px;
+}
+
+#Foto3 {
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 700px;
+    width: 24px;
+    height: 24px;
+}
+
+#rounded-box {
+    cursor:pointer;
+    background-color: #00C9E0;
+    height: 62px;
+    width: 181px;
+    position: absolute;
+    left: 80%;
+    border-radius: 30px;
+    top: 50px;
+}
+
+#Menu {
+    cursor:pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    color: #FFFFFF;
+}
+
+#Palka {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 80px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    left: 1380px;
+}
+
+#Foto4 {
+    position: absolute;
+    cursor:pointer;
+    width: 24px;
+    height: 24px;
+    top: 69px;
+    left: 1160px;
+}
+
+#rounded-box:hover {
+    background-color: #09F4F4;
+}
+
+body {
+    background-color: #011627;
+    top: 1100px;
+    height: 2000px;
+    
+}
+
+#Text4 {
+    position: absolute;
+    width: 422px;
+    height: 79px;
+    top: 960px;
+    left: 359px;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    left: 270px;
+    font-family: 'Playfair Display', serif;
+}
+
+#Foto5 {
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 989px;
+    width: 24px;
+    height: 24px;
+}
+
+#Text5 {
+    position: absolute;
+    left: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 349px;
+    height: 48px;
+    top: 979px;
+}
+#Text6 {
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    font-family: 'Open Sans', sans-serif;
+    color: #41EAD4;
+    top: 1100px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+#Text7 {
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    top: 1100px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+#Text8 {
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    top: 1100px;
+    margin-left: 800px;
+    position: absolute;
+}
+
+#Text9 {
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    top: 1100px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+#Text6:hover {
+    cursor:pointer;
+    border-bottom: 4px solid;
+}
+
+#Text7:hover {
+    cursor:pointer;
+    border-bottom: 4px solid;  
+}
+
+#Text8:hover {
+    cursor:pointer;
+    border-bottom: 4px solid;  
+}
+
+#Text9:hover {
+    cursor:pointer;
+    border-bottom: 4px solid;  
+}
+
+#Palka2 {
+    width: 806px;
+    height: 1px;
+    top: 1152px;
+    border-radius: 13px;
+    position: absolute;
+    background-color: #41EAD4;
+    left: 350px;
+}
+
+#Foto6 {
+    width: 350px;
+    height: auto;
+    top: 1250px;
+    margin-left: 350px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+#Foto7 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 295px;
+    margin-top: 560px;
+}
+
+#Foto8 {
+    cursor: pointer;
+    position: absolute;
+    width: 130px;
+    height: auto;
+    top: 1633px;
+    left: 580px;
+
+}
+
+#Foto9 {
+    position: absolute;
+    width: 172px;
+    height: auto;
+    top: 1390px;
+    left: 260px;
+    border-radius: 13px;
+}
+
+
+#Foto10 {
+    list-style-type: none;
+    display: inline-block;
+    content: '\2022';
+    position: absolute;
+    width: 38px;
+    height: auto;
+    top: 1405px;
+    left: 260px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.15em;
+}
+
+#Text10 {
+    font-family: 'Open Sans', sans-serif;
+    width: 204px;
+    height: 61px;
+    top: 1430px;
+    left: 260px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+#Text11 {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    width: 439px;
+    height: 72px;
+    top: 1300px;
+    left: 810px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+#Text12 {
+    width: 485px;
+    height: 179px;
+    top: 1400px;
+    left: 810px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+#Text13 {
+    width: 485px;
+    height: 179px;
+    top: 1500px;
+    left: 810px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+#Knopka { 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    cursor:pointer;
+    background-color: #00C9E0;
+    height: 62px;
+    width: 270px;
+    position: absolute;
+    left: 810px;
+    border-radius: 30px;
+    top: 1650px;
+}
+
+#Text14 {
+    cursor: pointer;
+    width: 220px;
+    height: 27px;
+    top: 1600px;
+    left: 810px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+}
+
+#Palka3 {
+    width: 30px;
+    height: 2px;
+    top: 1680px;
+    left: 1065px;
+    border-radius: 16px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+#Foto11 {
+    position: absolute;
+    width: 110px;
+    height: auto;
+    left: 1260px;
+    top: 1810px;
+}
+
+#Foto13 {
+    cursor: pointer;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1800px;
+    left: 1300px;
+}
+
+
+#Foto14 {
+    cursor: pointer;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1800px;
+    left: 1335px;
+}
+
+#Foto15 {
+    cursor: pointer;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1800px;
+    left: 1265px;
+}
+
+#Foto12 {
+    position: absolute;
+    top: 2000px;
+    left: 580px;
+    width: 700px;
+    height: auto;
+}
+
+#Foto16 {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    top: 2148px;
+    left: 1285px;
+    rotate: -180 deg;
+}
+
+#Text15 {
+    position: absolute;
+    color: #FFFFFF;
+    width: 80px;
+    height: auto;
+    top: 1770px;
+    left: 1260px;
+    font-size: 15px;
+}
+
+#Text16 {
+    color: #FFFFFF;
+    width: 300px;
+    height: 79px;
+    top: 2030px;
+    left: 250px;
+    font-size: 70px;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Text17 {
+    position: absolute;
+    color: #FFFFFF;
+    width: 321px;
+    height: 270px;
+    top: 2150px;
+    left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Text18 {
+    position: absolute;
+    color: #FFFFFF;
+    width: 321px;
+    height: 270px;
+    top: 2210px;
+    left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Text19 {
+    position: absolute;
+    color: #FFFFFF;
+    width: 321px;
+    height: 270px;
+    top: 2290px;
+    left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Text20 {
+    position: absolute;
+    color: #FFFFFF;
+    width: 321px;
+    height: 270px;
+    top: 2380px;
+    left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Knopka2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    cursor:pointer;
+    background-color: #00C9E0;
+    height: 62px;
+    width: 270px;
+    position: absolute;
+    left: 250px;
+    border-radius: 30px;
+    top: 2450px;
+}
+
+#Text21 {
+    color: #FFFFFF;
+}
+
+#Palka4 {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 2480px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    left: 500px;
+}
+
+#Foto17 {
+    position: absolute;
+    top: 2000px;
+    width: 1510px;
+    height: auto;
+}
+
+#Foto18 {
+    top: 2900px;
+    position: absolute;
+    width: 1300px;
+    height: auto;
+    left: 120px;
+}
+
+#Foto19 {
+    width: 1510px;
+    height: auto;
+    top: 4300px;
+    position: absolute;
+}
+
+#Palka5 {
+    border-radius: 13px;
+    height: 30px;
+    position: absolute;
+    top: 4300px;
+    left: 755px;
+    width: 2px;
+    background-color: #09F4F4;
+}
+
+.gradient-container2::after {
+    top: 3200px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 377px; /* Встановлюємо висоту градієнту */
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+
+}
+
+#id1 {
+    display: flex;
+    background-color: #41EAD4;
+    left: 1000px;
+    position: absolute;
+    height: 800px;
+    width: 500px;
+    fill: #41EAD4;
+    opacity: 0.1;
+    filter: blur(125px);
+    top: 2300px;
+}
+
+#id2 {
+    left: 0%;
+    display: flex;
+    background-color: #41EAD4;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    fill: #41EAD4;
+    opacity: 0.1;
+    filter: blur(125px);
+    top: 2700px;
+}
+
+#id3 {
+    z-index: 1;
+    left: 1300px;
+    display: flex;
+    background-color: #41EAD4;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    fill: #41EAD4;
+    opacity: 0.1;
+    filter: blur(125px);
+    top: 1500px;
+}
+
+#id4 {
+    z-index: 2;
+    left: 900px;
+    background-color: #7741EA;
+    position: absolute;
+    height: 800px;
+    width: 500px;
+    fill: #7741EA;
+    opacity: 0.1;
+    filter: blur(125px);
+    top: 1250px;
+    transform: rotate(15deg);
+}
+
+#id5 {
+    z-index: 3;
+    left: 350px;
+    background-color: #41EAD4;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    fill: #41EAD4;
+    opacity: 0.07;
+    filter: blur(125px);
+    top: 1200px;
+}
+
+#id6 {
+    z-index: 4;
+    left: 100px;
+    background-color: #BE41EA;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    fill: #BE41EA;
+    opacity: 0.11;
+    filter: blur(125px);
+    top: 1400px;
+}
+
+#id7 {
+    z-index: 5;
+    left: 100px;
+    background-color: #BE41EA;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    fill: #BE41EA;
+    opacity: 0.11;
+    filter: blur(125px);
+    top: 1100px;
+}
+
+#id8 {
+    z-index: 6;
+    left: 90px;
+    background-color: #41EAD4;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 1000px;
+    fill: #41EAD4;
+    opacity: 0.5;
+    filter: blur(125px);
+}
+
